@@ -60,7 +60,7 @@ train_labels = np.zeros(2602)
 train_labels[2170:2601] = 1
 train_matrix = extract_features(train_dir)
 
-# Training SVM and Naive bayes classifier
+# Training Naive bayes classifier
 
 
 model = MultinomialNB()
